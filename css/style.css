@@ -1,0 +1,136 @@
+body{
+    background-color: #dfe3ee;
+    margin: 0px;
+    padding: 0px;
+    width: 1299px;
+    /* width: auto; */
+}
+
+.Navigator{
+    background-color: #000000;
+    height: 90px;
+}
+
+.Navigator img{
+    height: 50px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.Navigator .title{
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.login{
+    color: rgb(255, 250, 220);
+    font-size: 15px;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.login .label{
+    float: right;
+    margin-top: 15px;
+    margin-right: 240px;
+}
+
+.login label{
+    margin-right: 70px;
+}
+
+.login .input{
+    float: right;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+.login input{
+    margin-right: 15px;
+    width: 150px;
+}
+
+.login .recovery{
+    margin-left: 280px;
+    margin-top: 50px;
+    color: rgb(253, 242, 199);
+}
+
+
+.main .image{
+    background-color: khaki;
+    float: left;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.main .signup{
+    float: right;
+    /* background-color: rgb(255, 255, 255); */
+    width: 50%;
+}
+
+.main .signup h1{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.main .signup h3{
+    margin: 15px 50px;
+}
+
+.main .signup div{
+    margin: 15px 50px;
+}
+
+.main .signup input[type="text"],
+.main .signup input[type="password"]{
+    margin-right: 10px;
+    height: 40px;
+    padding: 5px;
+    width: 195px;
+}
+
+.main .signup .mno input,.main .signup .pass input{
+    width: 405px;
+}
+
+.main .signup span{
+    margin-left: 50px;
+    font-size: 21;
+    margin-bottom: 0px;
+    color: rgb(202, 171, 216);
+}
+
+
+.main .signup .date input{
+    width: 100px;
+    height: 20px;
+}
+
+.name input, .mno input , .pass input{
+    border-radius: 5px;
+    border: 2px solid rgb(167, 167, 167);
+    
+}
+
+.main .signup .genders{
+    margin-left: 50px;
+}
+
+
+.submit{
+    text-align: center;
+    color: honeydew;
+    margin-left: 50px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(49, 182, 60);
+    border-radius: 5px;
+}
